@@ -14,11 +14,11 @@ RLSTA/
 ├── conversation_simulator/    # Step 1: Single-turn / multi-turn conversation generator
 ├── eval/                      # Step 2: Response evaluation (accuracy scoring)
 ├── lcf/                       # Step 3: Latent Capability Filtering — data filtering
-├── train_datas/               # Step 3 output: filtered training data
+├── train_datas/               # Step 3 output: filtered training data (gitignored)
 ├── train/                     # Step 4: GRPO / RLSTA reinforcement learning training
 ├── utils/                     # Shared utilities (API calls, eval functions, prompt templates)
-├── acc_rawdata/               # Evaluation intermediates (raw accuracy data)
-└── eval_responses/            # Model inference response cache
+├── acc_rawdata/               # Evaluation intermediates (raw accuracy data, gitignored)
+└── eval_responses/            # Model inference response cache (gitignored)
 ```
 
 ---
