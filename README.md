@@ -10,7 +10,7 @@ The project covers the full end-to-end pipeline: **Data Generation → Evaluatio
 
 ```
 RLSTA/
-├── sharded_data/              # Seed data (math problems)
+├── sharded_data/              # Seed data
 ├── conversation_simulator/    # Step 1: Single-turn / multi-turn conversation generator
 ├── eval/                      # Step 2: Response evaluation (accuracy scoring)
 ├── lcf/                       # Step 3: Latent Capability Filtering — data filtering
