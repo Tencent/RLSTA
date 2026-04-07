@@ -79,3 +79,18 @@ bash train/run_grpo.sh lcf_math_200 hunyuan-2.0-instruct-20251111 48 0,1,2,3,4,5
 - [`eval/`](eval/README.md) — Evaluation module
 - [`lcf/`](lcf/README.md) — Latent Capability Filtering module
 - [`train/`](train/README.md) — Training module
+
+---
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{chen2026breaking,
+  title     = {Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anchors for Stable Multi-Turn Interaction},
+  author    = {Chen, Xingwu and Zhang, Zhanqiu and Guo, Yiwen and Zou, Difan},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
+  year      = {2026}
+}
+```
